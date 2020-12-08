@@ -79,13 +79,10 @@ p {
 
 /* title section */
 
-#title {
+#title .container-fluid {
+    padding: 3% 15% 7%;
     font-weight: 800;
     text-align: left;
-}
-
-#title.container-fluid {
-    padding: 3% 15% 7%;
 }
 
 
@@ -93,10 +90,9 @@ p {
 
 .title-image {
     width: 70%;
-    transform: rotate(25deg);
+    transform: rotate(20deg);
     position: absolute;
-    right: 25%;
-    top: -6%;
+    right: 20%;
 }
 
 
@@ -143,7 +139,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: white;
     position: relative;
     z-index: 1;
 }
@@ -198,13 +193,6 @@ p {
 
 
 /* cta section */
-
-#cta {
-    background-color: #ed4765;
-    color: white;
-    font-weight: 600;
-    font-size: 1.2rem;
-}
 
 .cta-heading {
     font-weight: 800;
